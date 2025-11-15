@@ -20,4 +20,8 @@ function homeAdmin(){
 function qlyDanhmuc(){
     require_once './views/admin/Qlydanhmuc.php';
 }
+function qlidichvu1(){
+    $controller = new DichVuController();
+    $controller->qlidichvu();
+}
 ?>
