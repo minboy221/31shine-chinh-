@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nhân Viên | 31Shine</title>
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/nhanvien.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/nhanvien.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="shortcut icon" href="/duan1(chinh)/BaseCodePhp1/anhmau/logotron.png">
+    <link rel="shortcut icon" href="/duan1/BaseCodePhp1/anhmau/logotron.png">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             </div>
             <aside class="aside">
                 <div class="logo">
-                    <img src="/duan1(chinh)/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="">
+                    <img src="/duan1/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="">
                 </div>
                 <div class="menu">
                     <ul>
@@ -63,7 +63,7 @@
                 </div>
             </aside>
             <div class="banner">
-                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/anhbannernhanvien.411Z.png" alt="">
+                <img src="/duan1/BaseCodePhp1/anhmau/anhbannernhanvien.411Z.png" alt="">
                 <div class="banner-text">
                     <h1>Nhân Viên</h1>
                 </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="content">
         <div class="background">
-            <img src="/duan1(chinh)/BaseCodePhp1/anhmau/31SHINEmoi.png" alt="">
+            <img src="/duan1/BaseCodePhp1/anhmau/31SHINEmoi.png" alt="">
         </div>
         <main>
             <div class="baonhanvien">
@@ -86,7 +86,7 @@
                 </div>
                 <div class="baothocattoc">
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/tho1.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/tho1.png" alt="">
                         <div class="infotho">
                             <div class="ten">
                                 <p>Việt Hùng</p>
@@ -94,19 +94,19 @@
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/tho2.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/tho2.png" alt="">
                         <div class="ten">
                             <p>Mạnh Dũng</p>
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/tho3.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/tho3.png" alt="">
                         <div class="ten">
                             <p>Công Huy</p>
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/tho4.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/tho4.png" alt="">
                         <div class="ten">
                             <p>Nhật Minh</p>
                         </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="baothocattoc">
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/thogoi1.192Z.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/thogoi1.192Z.png" alt="">
                         <div class="infotho">
                             <div class="ten">
                                 <p>Việt Hùng</p>
@@ -132,19 +132,19 @@
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/thogoi2.792Z.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/thogoi2.792Z.png" alt="">
                         <div class="ten">
                             <p>Mạnh Dũng</p>
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/thonu2.493Z.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/thonu2.493Z.png" alt="">
                         <div class="ten">
                             <p>Công Huy</p>
                         </div>
                     </div>
                     <div class="tho">
-                        <img src="/duan1(chinh)/BaseCodePhp1/anhmau/goidauthugian.679Z.png" alt="">
+                        <img src="/duan1/BaseCodePhp1/anhmau/goidauthugian.679Z.png" alt="">
                         <div class="ten">
                             <p>Nhật Minh</p>
                         </div>
@@ -156,7 +156,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
-                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="31Shine Logo"
+                <img src="/duan1/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="31Shine Logo"
                     class="footer-logo">
                 <p>31Shine – Hệ thống salon nam hiện đại hàng đầu Việt Nam. Chúng tôi giúp bạn luôn tự tin và phong
                     độ
@@ -191,6 +191,6 @@
         </div>
     </footer>
 </body>
-<script src="<?= BASE_URL ?>public/main.js"></script>
+<script src="<?= BASE_URL ?>/public/main.js"></script>
 
 </html>

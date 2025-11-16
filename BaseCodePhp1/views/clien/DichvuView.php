@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dịch Vụ | 31Shine</title>
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/dichvu.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/dichvu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="shortcut icon" href="/duan1(chinh)/BaseCodePhp1/anhmau/logotron.png">
+    <link rel="shortcut icon" href="/duan1/BaseCodePhp1/anhmau/logotron.png">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             </div>
             <aside class="aside">
                 <div class="logo">
-                    <img src="/duan1(chinh)/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="">
+                    <img src="/duan1/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="">
                 </div>
                 <div class="menu">
                     <ul>
@@ -63,7 +63,7 @@
                 </div>
             </aside>
             <div class="banner">
-                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/dichvucatoc.076Z.png" alt="">
+                <img src="/duan1/BaseCodePhp1/anhmau/dichvucatoc.076Z.png" alt="">
                 <div class="banner-text">
                     <h1>Dịch Vụ</h1>
                 </div>
@@ -72,7 +72,7 @@
     </div>
     <div class="conten">
         <div class="background">
-            <img src="/duan1(chinh)/BaseCodePhp1/anhmau/31SHINEmoi.png" alt="">
+            <img src="/duan1/BaseCodePhp1/anhmau/31SHINEmoi.png" alt="">
         </div>
         <main>
             <div class="thanhloc">
@@ -105,7 +105,7 @@
                     <div class="cattocbo">
                         <div class="cattoccon">
                             <a href="">
-                                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/anhdichvutoc.png" alt="">
+                                <img src="/duan1/BaseCodePhp1/anhmau/anhdichvutoc.png" alt="">
                             </a>
                             <div class="infor">
                                 <h4>Cắt Tóc</h4>
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="cattoccon">
-                            <img src="/duan1(chinh)/BaseCodePhp1/anhmau/anhnhuomtoc.201Z.png" alt="">
+                            <img src="/duan1/BaseCodePhp1/anhmau/anhnhuomtoc.201Z.png" alt="">
                             <div class="infor">
                                 <h4>Thay Đổi Màu Tóc</h4>
                                 <div class="baogia">
@@ -138,7 +138,7 @@
                         <div class="cattocbo">
                             <div class="cattoccon">
                                 <a href="">
-                                    <img src="/duan1(chinh)/BaseCodePhp1/anhmau/goidauthugian.679Z.png" alt="">
+                                    <img src="/duan1/BaseCodePhp1/anhmau/goidauthugian.679Z.png" alt="">
                                 </a>
                                 <div class="infor">
                                     <h4>Cắt Tóc</h4>
@@ -151,7 +151,7 @@
                                 </div>
                             </div>
                             <div class="cattoccon">
-                                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/laydaytai.161Z.png" alt="">
+                                <img src="/duan1/BaseCodePhp1/anhmau/laydaytai.161Z.png" alt="">
                                 <div class="infor">
                                     <h4>Thay Đổi Màu Tóc</h4>
                                     <div class="baogia">
@@ -170,7 +170,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
-                <img src="/duan1(chinh)/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="31Shine Logo"
+                <img src="/duan1/BaseCodePhp1/anhmau/logochinh.424Z-removebg-preview.png" alt="31Shine Logo"
                     class="footer-logo">
                 <p>31Shine – Hệ thống salon nam hiện đại hàng đầu Việt Nam. Chúng tôi giúp bạn luôn tự tin và phong độ
                     mỗi ngày.</p>
@@ -204,6 +204,6 @@
         </div>
     </footer>
 </body>
-<script src="<?= BASE_URL ?>public/main.js"></script>
+<script src="<?= BASE_URL ?>/public/main.js"></script>
 
 </html>
