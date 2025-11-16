@@ -30,6 +30,7 @@ match ($act) {
     'edit_dichvu' => (new DichVuController())->edit(),
     'update_dichvu' => (new DichVuController())->update(),
     'delete_dichvu' => (new DichVuController())->delete(),
+    'detail_dichvu' => (new DichVuController())->detail(),
 
     default => notFound(),
 }

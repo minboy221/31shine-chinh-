@@ -111,6 +111,8 @@
 
                                     <td>
                                         <a class="btnsua" href="?act=edit_dichvu&id=<?= $item['id'] ?>">">Sửa</a>
+                                        <a class="btnxem" href="?act=detail_dichvu&id=<?= $item['id'] ?>">Xem</a>
+
 
                                         <a class="btnxoa"
                                            onclick="return confirm('Bạn chắc chắn muốn xoá dịch vụ này?')"

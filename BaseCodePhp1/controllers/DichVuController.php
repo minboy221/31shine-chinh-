@@ -63,4 +63,24 @@ class DichVuController
         $model->delete($id);
         header("Location: index.php?act=qlydichvu");
     }
+    public function detail()
+{
+    $id = $_GET['id'] ?? null;
+
+    if (!$id) {
+        echo "ID dịch vụ không hợp lệ!";
+        exit;
+    }
+
+    $model = new DichVuModel();
+    $dichvu = $model->find($id);
+
+    if (!$dichvu) {
+        echo "Dịch vụ không tồn tại!";
+        exit;
+    }
+
+    include "views/admin/dichvu/detail.php";
+}
+
 }
