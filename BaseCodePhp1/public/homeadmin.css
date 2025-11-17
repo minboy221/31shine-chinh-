@@ -621,3 +621,100 @@ body{
     }
 
 }
+/* ========================  KHUNG GIỜ (CUSTOM PAGE CSS)  ======================== */
+
+.khunggio-container {
+    background: var(--light);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px #0001;
+    margin-top: 20px;
+}
+
+/* Nút thêm khung giờ */
+.btn-add {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--light);
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 20px 0;
+    transition: 0.25s;
+}
+.btn-add:hover {
+    opacity: 0.85;
+}
+
+/* TABLE KHUNG GIỜ */
+.table-container {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px #0002;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container thead {
+    background: var(--primary);
+    color: var(--light);
+}
+
+.table-container th,
+.table-container td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--grey);
+    text-align: left;
+    font-size: 15px;
+}
+
+.table-container tbody tr:hover {
+    background: var(--grey);
+    transition: 0.2s;
+}
+
+/* Nút sửa – xóa */
+.btn-edit {
+    background: var(--success);
+    color: var(--light);
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-edit:hover {
+    opacity: 0.8;
+}
+
+.btn-delete {
+    background: var(--danger);
+    color: var(--light);
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-delete:hover {
+    opacity: 0.8;
+}
+
+/* Responsive cho bảng */
+@media(max-width: 768px) {
+    .table-container {
+        padding: 10px;
+    }
+
+    .table-container table {
+        font-size: 14px;
+    }
+
+    .table-container th,
+    .table-container td {
+        padding: 10px;
+    }
+}
