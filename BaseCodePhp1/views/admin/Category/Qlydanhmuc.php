@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/qlydanhmuc.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/qlydanhmuc.css">
     <title>Trang Quản Lý Danh Mục | 31Shine</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 </head>
@@ -19,7 +19,7 @@
         </a>
         <ul class="side-menu">
             <li><a href="#">Thống Kê</a></li>
-            <li class="active"><a href="#">Quản Lý Danh Mục</a></li>
+            <li class="active"><a href="index.php?act=qlydanhmuc">Quản Lý Danh Mục</a></li>
             <li><a href="#">Quản Lý Dịch Vụ</a></li>
             <li><a href="#">Quản Lý Đặt Lịch</a></li>
             <li><a href="#">Quản Lý Nhân Viên</a></li>
@@ -72,38 +72,26 @@
                         <i class='bx bx-receipt'></i>
                         <h3>Danh Mục</h3>
                         <div class="btn">
-                            <a href="" class="btnthem">+Thêm Danh Mục</a>
+                            <a href="index.php?act=category-addForm" class="btnthem">+Thêm Danh Mục</a>
                         </div>
                     </div>
                     <table>
                         <thead>
                             <tr>
                                 <th>Tên Danh Mục</th>
-                                <th>Description</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
+                            <?php foreach ($categories as $category): ?>
                             <tr>
+                                <td><?= $category['name']?></td>
                                 <td>
-                                    <p>John Doe</p>
-                                </td>
-                                <td>14-08-2023</td>
-                                <td>
-                                    <a class="btnxem" href="">Xem chi tiết</a>
-                                    <a class="btnsua" href="">Sửa</a>
-
-                                    <a class="btnxoa" onclick="return confirm('Bạn chắc chắn muốn xoá ?')"
-                                        href="">Xoá</a>
+                                    <a class="btnsua" href="index.php?act=category-editForm&id=<?= $category['id'] ?>">Sửa</a>
+                                    <a class="btnxoa" onclick="return confirm('Bạn chắc chắn muốn xoá ?')" href="index.php?act=category-delete&id=<?= $category['id'] ?>">Xoá</a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <p>John Doe</p>
-                                </td>
-                                <td>14-08-2023</td>
-
-                            </tr>
+                            <?php endforeach; ?>
                         </tbody>
                     </table>
                 </div>
@@ -111,7 +99,7 @@
         </main>
     </div>
 
-    <script src="<?= BASE_URL ?>public/admin.js"></script>
+    <script src="<?= BASE_URL ?>/public/admin.js"></script>
 </body>
 
 </html>

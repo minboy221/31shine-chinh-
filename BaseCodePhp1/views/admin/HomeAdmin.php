@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="<?= BASE_URL ?>public/homeadmin.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/homeadmin.css">
     <title>Trang Quản Trị | 31Shine</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 </head>
@@ -19,6 +19,8 @@
         </a>
         <ul class="side-menu">
             <li class="active"><a href="#">Thống Kê</a></li>
+            <li><a href="index.php?act=qlydanhmuc">Quản Lý Danh Mục</a></li>
+            <li><a href="#">Quản Lý Dịch Vụ</a></li>
             <li><a href="#">Quản Lý Danh Mục</a></li>
             <li><a href="?act=qlydichvu">Quản Lý Dịch Vụ</a></li>
             <li><a href="#">Quản Lý Đặt Lịch</a></li>
@@ -158,7 +160,7 @@
         </main>
     </div>
 
-    <script src="<?= BASE_URL ?>public/admin.js"></script>
+    <script src="<?= BASE_URL ?>/public/admin.js"></script>
 </body>
 
 </html>
