@@ -9,6 +9,8 @@ require_once('./commons/env.php');
 require_once('./commons/function.php');
 require_once("./controllers/CattocContronler.php");
 require_once("./controllers/CategoryController.php");
+require_once("./controllers/DichVuController.php");
+require_once("./models/DichVuModel.php");
 
 // route
 $act = $_GET['act'] ?? 'home';
@@ -34,6 +36,14 @@ match ($act) {
     'category-editForm' => (new CategoryController())->editForm(),
     'category-saveEdit' => (new CategoryController())->saveEdit(),
     'category-delete' => (new CategoryController())->delete(),
+    'qlydanhmuc' => qlyDanhmuc(),
+    'qlydichvu' => qlidichvu1(),
+    'create_dichvu' => (new DichVuController())->create(),
+    'store' => (new DichVuController())->store(),
+    'edit_dichvu' => (new DichVuController())->edit(),
+    'update_dichvu' => (new DichVuController())->update(),
+    'delete_dichvu' => (new DichVuController())->delete(),
+    'detail_dichvu' => (new DichVuController())->detail(),
 
     default => notFound(),
 };
